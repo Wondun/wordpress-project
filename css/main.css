@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+  background-color: rgb(221, 221, 221);
+}
+
+.bg-custom{
+  background-color: rgb(238, 238, 238);
+}
+.navbar-brand{
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: calc(100vw - 1300px) !important;
+  margin-right: 3rem !important;
+}
+
+h1{
+  color: rgb(87, 100, 70);
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.carousel-inner{
+  background-color: black;
+}
+.carousel-item img{
+  width: auto;
+  height: 50%;
+  max-height: 1000px;
+  margin: auto; 
+  display: block;
+  }
+.navbar-light .navbar-brand{
+  color: rgb(87, 100, 70);
+}
+.navbar-nav{
+  text-align: center;
+}
+@media (max-width: 1295px){
+  .navbar-brand{
+    margin-left: 20px !important;
+  }
+}
+
+@media (max-width: 780px){
+h1{
+  color: rgb(87, 100, 70);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-top:10px;
+}}
+@media (min-width: 768px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 19px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.slider{
+  width:80%;
+  margin: 0 auto;
+}
+}
+.container {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: justify;
+}
+.slider{
+  margin-bottom: 20px;
+}
+.downloads
+{
+  height: 140px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.innerdownloads
+{
+  height: 140px;
+}
+.projectDownload
+{
+  float: left;
+  height: 140px;
+}
+.projectDownload:first-child
+{
+  float: left;
+  height: 140px;
+  margin-left: 300px;
+  margin-right: 200px;
+}
+.projectDownload a
+{
+  color: rgb(87, 100, 70);
+  text-decoration: underline;
+  font-size: 40px;
+}
+.projectDownload a img
+{
+  height: 130px;
+  width: 130px;
+  margin-right: 14px;
+}
